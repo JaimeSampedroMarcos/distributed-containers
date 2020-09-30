@@ -16,5 +16,10 @@ The Repository is devided in the following folders:
                                         Deploy one ingress file or the other.  
 
 - rancher:
-  Contains the Infrastructure as code resources to provision Rancher as a Product. 
+  Contains the Infrastructure as code resources to provision Rancher as a Product.  It has a folder for each hyperscaler where it can be provision.
+  The Azure Rancher provision code has been tested and it deploys all the artefacts in one resource group specified. Among the provision options
+  we can find:
+  - Azure. ./azure
+  - Google Cloud. /gcp
+  - Amazon. /aws
   
