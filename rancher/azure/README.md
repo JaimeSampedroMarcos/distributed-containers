@@ -68,3 +68,8 @@ Admin password to use for Rancher server bootstrap
 
 See `rancher-common` module variable `admin_password` for more details.
 
+###### `resource_group_name`
+- **Required**
+Name of the Azure Resource Group where all the resources are going to be provision
+
+

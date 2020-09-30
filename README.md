@@ -16,5 +16,5 @@ The Repository is devided in the following folders:
                                         Deploy one ingress file or the other.  
 
 - rancher:
-  Contains the Infrastructure as code resources to provision one Rancher instance. 
+  Contains the Infrastructure as code resources to provision Rancher as a Product. 
   
