@@ -1,8 +1,3 @@
-# distributed-containers
-Contains code associated to probe of conecepts and demos of technologies related to distributed containers. 
-
-The Repository is devided in the following folders:
-
 - kubernetes:
   Contains examples of YAML code of applications uses in demos.
 
@@ -14,7 +9,3 @@ The Repository is devided in the following folders:
                                this deployment through google cloud with the following command: "gcloud compute addresses create helloweb-ip"
      - hellodemo-ingress-nodeport.yaml: Ingress YAML equivalent to the previous one by defining a nodeport to be acceded from outside.
                                         Deploy one ingress file or the other.  
-
-- rancher:
-  Contains the Infrastructure as code resources to provision one Rancher instance. 
-  

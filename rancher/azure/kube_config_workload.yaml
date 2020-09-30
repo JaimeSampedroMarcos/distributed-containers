@@ -1,0 +1,30 @@
+apiVersion: v1
+kind: Config
+clusters:
+- name: "quickstart-azure-custom"
+  cluster:
+    server: "https://rancher.40.68.223.15.xip.io/k8s/clusters/c-bwgqh"
+    certificate-authority-data: "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUJpVENDQ\
+      VM2Z0F3SUJBZ0lCQURBS0JnZ3Foa2pPUFFRREFqQTdNUnd3R2dZRFZRUUtFeE5rZVc1aGJXbGoKY\
+      kdsemRHVnVaWEl0YjNKbk1Sc3dHUVlEVlFRREV4SmtlVzVoYldsamJHbHpkR1Z1WlhJdFkyRXdIa\
+      GNOTWpBdwpPREkzTURnME5ERTJXaGNOTXpBd09ESTFNRGcwTkRFMldqQTdNUnd3R2dZRFZRUUtFe\
+      E5rZVc1aGJXbGpiR2x6CmRHVnVaWEl0YjNKbk1Sc3dHUVlEVlFRREV4SmtlVzVoYldsamJHbHpkR\
+      1Z1WlhJdFkyRXdXVEFUQmdjcWhrak8KUFFJQkJnZ3Foa2pPUFFNQkJ3TkNBQVFYdXdzN1pzdEtKS\
+      TlTUTk1TUJxZ1F4YThMaDlVckxZRUJpSWNGZCt5YgpTcFFFdzFDU0NBblF1UkNlN3RiQUlzblg4Y\
+      k81Yy9td3hKNTRNOHpIeXZ6Sm95TXdJVEFPQmdOVkhROEJBZjhFCkJBTUNBcVF3RHdZRFZSMFRBU\
+      UgvQkFVd0F3RUIvekFLQmdncWhrak9QUVFEQWdOSkFEQkdBaUVBcjZ6b0lheUoKVFliODBQay9rU\
+      EJESytCRUVQbzJuc0JaSWFJZU83cjFIZG9DSVFETjZROVErZHJST1lTMGhFYVduRmNtMnFseQpTd\
+      3VtbExEamQ1UFI4TzRJT2c9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0t"
+
+users:
+- name: "quickstart-azure-custom"
+  user:
+    token: "kubeconfig-user-fv2d4:kc7xw5fvnc5b4jxnnqtsk9ll2flrt65lj2sqd75tdnwpzlshhvnrpv"
+
+contexts:
+- name: "quickstart-azure-custom"
+  context:
+    user: "quickstart-azure-custom"
+    cluster: "quickstart-azure-custom"
+
+current-context: "quickstart-azure-custom"
