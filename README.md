@@ -1,5 +1,5 @@
 # distributed-containers
-Contains code associated to probe of conecepts and demos of technologies related to distributed containers. 
+Contains code associated to probe of concepts and demos of technologies related to distributed containers. 
 
 The Repository is devided in the following folders:
 
