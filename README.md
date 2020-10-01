@@ -24,5 +24,5 @@ The Repository is devided in the following folders:
   - Azure. /azure
 
 
-  ![image](./images/rancherazure.jpg)
+  ![image](images/rancherazure.jpg)
   
