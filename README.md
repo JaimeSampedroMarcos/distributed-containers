@@ -6,7 +6,7 @@ The Repository is devided in the following folders:
 - **kubernetes**:
   Contains examples of YAML code of applications uses in demos.
 
-  - **Statless**:
+  - **Stateless**:
      This folder contains the code of a stateless hello world application deployment yaml and its related Ingress resource. 
      There are three yaml files:
      - hellodemo_deployment.yaml: Deployment resource of the workload associated to the hello work example.
